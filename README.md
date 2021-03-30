@@ -1,15 +1,10 @@
 # vkreal
 Simple asynchronus wrapper for vk_api.
+
 Version 1.0.0.
 _____
 _____
 _____
-# vkreal
-Simple asyncio wrapper for vk_api.
-_______
-_______
-_______
-
 ## Documentation
 
 ### vkreal.VkApi(token, sess = None, v = "5.125")
