@@ -1,2 +1,2 @@
 # vkreal
-Simple asyncio wrapper for vk_api
+Simple asyncio wrapper for vk_api.
