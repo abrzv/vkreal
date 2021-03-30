@@ -2,6 +2,11 @@
 Simple asynchronus wrapper for vk_api.
 
 Version 1.0.0.
+
+It isn't ideal, but it works...
+
+![Орех](https://user-images.githubusercontent.com/65618248/112987857-d4a45600-916b-11eb-87a0-1e5a88e542ca.png "Орехус")
+
 _____
 _____
 _____
