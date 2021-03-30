@@ -44,7 +44,7 @@ Initialized VkApi object.
 _______
 ### vkreal.VkLongPoll(api, v = "3", mode = 10, get_pts = False, loop = None)
 
-- v
+- api
 
-
+VkApi object, which contains user credintails for longpoll
 
