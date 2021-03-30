@@ -35,3 +35,16 @@ Method name. You can see a list of all methods [here](https://vk.com/dev/methods
 Parameters, with which method will be called.
 You can see it in https://vk.com/dev/method.name
 _______
+### vkreal.ApiContext(api)
+Wrapper, for using api methods as ordinary class methods.
+
+- api
+
+Initialized VkApi object.
+_______
+### vkreal.VkLongPoll(api, v = "3", mode = 10, get_pts = False, loop = None)
+
+- v
+
+
+
