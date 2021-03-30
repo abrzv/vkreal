@@ -46,5 +46,29 @@ _______
 
 - api
 
-VkApi object, which contains user credintails for longpoll
+VkApi object for longpoll initialization.
+
+- v
+
+Longpoll version.
+
+- mode
+
+Longpoll mode.
+
+- get_pts
+
+This parameter reserved.
+
+- loop
+
+Asyncio loop, which will be used by event listener and handlers.
+________
+### vkreal.VkLongPoll._init_server(get_ts = True)
+
+Getting server
+- get_ts
+
+This parameter reserved.
+
 
