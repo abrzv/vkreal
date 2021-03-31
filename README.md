@@ -101,3 +101,11 @@ Id of group, in which longpoll will be setted.
 - loop
 
 Asyncio loop, which will be used by event listener and handlers.
+________
+### vkreal.EventCreationTool.convert_event(event)
+
+Parsing array-event to dict.
+
+- event
+
+Source array-event.
