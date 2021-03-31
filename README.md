@@ -66,9 +66,38 @@ Asyncio loop, which will be used by event listener and handlers.
 ________
 ### vkreal.VkLongPoll._init_server(get_ts = True)
 
-Getting server
+Saving credintails for longpoll.
+
 - get_ts
 
 This parameter reserved.
+________
+### vkreal.VkLongPoll.get_event()
+Getting one not-parsed event from longpoll.
+________
+### vkreal.VkLongPoll.listen()
+Longpoll-listening generator, yield parsed events.
+________
+### vkreal.VkLongPoll.on_event(function)
+Adding an async event handler.
 
+- function
 
+Asynchronus callback function, that will handle events.
+on_event listener call this function with passing event in first argument.
+________
+### vkreal.VkBotLongPoll(api, group_id, loop = None)
+
+Group longpoll using the same functions, as user longpoll.
+
+- api
+
+VkApi object for group longpoll initialization.
+
+- group_id
+
+Id of group, in which longpoll will be setted.
+
+- loop
+
+Asyncio loop, which will be used by event listener and handlers.
