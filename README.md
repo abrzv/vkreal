@@ -73,7 +73,7 @@ Saving credintails for longpoll.
 This parameter reserved.
 ________
 ### vkreal.VkLongPoll.get_event()
-Getting one not-parsed event from longpoll.
+Getting one [not-parsed](#vkrealeventcreationtoolconvert_eventevent) event from longpoll.
 ________
 ### vkreal.VkLongPoll.listen()
 Longpoll-listening generator, yield parsed events.
