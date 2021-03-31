@@ -24,7 +24,7 @@ httpx.AsyncClient. You can use your own session, for example for using methods w
 Vk api version.
 _______
 ### vkreal.VkApi.api_context()
-Creates and initializes ApiContext class with current VkApi class.
+Creates and initializes ApiContext class with current [VkApi class](#vkrealvkapitoken-sess--none-v--5125).
 _______
 ### vkreal.VkApi.method(name, params)
 - name
