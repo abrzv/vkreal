@@ -19,4 +19,4 @@ async def answer(event):
             random_id = 0)
             
 loop.create_task(longpoll.on_event(answer))
-loop.run_forever()
+loop.run_forever() 
