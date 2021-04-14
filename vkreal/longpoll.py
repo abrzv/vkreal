@@ -100,7 +100,7 @@ class VkLongPoll:
         response = await self.api.sess.get(
         url = self.server_url,
         params = params,
-        timeout = 70)
+        timeout = None)
         json_response = response.json()
 
         if "failed" in json_response:
@@ -187,7 +187,7 @@ class VkBotLongPoll:
         response = await self.api.sess.get(
         url = self.server_url,
         params = params,
-        timeout = 70)
+        timeout = None)
         json_response = response.json()
 
         if "failed" in json_response:
