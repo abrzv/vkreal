@@ -212,7 +212,7 @@ class VkBotLongPoll:
         while True:
             try:
                 for event in await self.get_event():
-                    yield norm_event
+                    yield event
             except:
                 pass
 
